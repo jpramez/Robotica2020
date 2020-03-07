@@ -1,0 +1,28 @@
+PUNTO DE OPERACION
+h_0 = 6.394704444
+q_0 = 239.7454205
+
+GANANCIA DEL PROCESO (K)    = CAMBIO EN LA SALIDA / CAMBIO EN LA ENTRADA
+                            = 8,066 - 6,367 / 269 - 239
+                            = 1,699 / 30
+                            = 0,056633333
+K = 0,056633333
+
+CONSTANTE DE TIEMPO (T)
+
+    63% de la curva de cambio de estado = CAMBIO EN LA SALIDA * 0,63
+                                        = 1,699 * 0,63
+                                        = 1,07037
+
+    Se suma a la salida el 63% de la curva
+        6,367 + 1,07037 = 7,43737
+    
+    Una vez calculado esto, obtenemos la imagen de X para Y
+        X(7,43737) = 466,4
+    
+    T   = 466 - 444 
+        = 22
+
+MODELO:
+    P(s)    = K / T*s + 1
+            = 0,056633333 / 22*s + 1
