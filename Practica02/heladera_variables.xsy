@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VariablesExchangeFile>
+	<fileHeader company="Schneider Automation" product="Unity Pro XL V13.0 - 170914B" dateTime="date_and_time#2020-4-1-18:10:36" content="Fichero fuente de variables" DTDVersion="41"></fileHeader>
+	<contentHeader name="Proyecto" version="0.0.40" dateTime="date_and_time#2020-3-30-17:20:18"></contentHeader>
+	<dataBlock>
+		<variables name="S_MAX_1" typeName="EBOOL" topologicalAddress="%I0.2.1"></variables>
+		<variables name="S_1" typeName="EBOOL" topologicalAddress="%I0.2.4">
+			<comment>Sensor de nueva caja</comment>
+		</variables>
+		<variables name="S_2" typeName="EBOOL" topologicalAddress="%I0.2.5"></variables>
+		<variables name="S_3" typeName="EBOOL" topologicalAddress="%I0.2.6"></variables>
+		<variables name="S_MAX_C" typeName="EBOOL" topologicalAddress="%I0.2.3">
+			<attribute name="TimeStampSource" value="0"></attribute>
+		</variables>
+		<variables name="S_MAX_2" typeName="EBOOL" topologicalAddress="%I0.2.2"></variables>
+		<variables name="V_1" typeName="EBOOL" topologicalAddress="%Q0.2.16">
+			<attribute name="TimeStampSource" value="0"></attribute>
+		</variables>
+		<variables name="V_26" typeName="EBOOL" topologicalAddress="%Q0.2.17">
+			<attribute name="TimeStampSource" value="0"></attribute>
+		</variables>
+		<variables name="V_3MEZ1" typeName="EBOOL" topologicalAddress="%Q0.2.18">
+			<attribute name="TimeStampSource" value="0"></attribute>
+		</variables>
+		<variables name="V_45" typeName="EBOOL" topologicalAddress="%Q0.2.19">
+			<attribute name="TimeStampSource" value="0"></attribute>
+		</variables>
+		<variables name="V_7" typeName="EBOOL" topologicalAddress="%Q0.2.20"></variables>
+		<variables name="RESISTENCIA" typeName="EBOOL" topologicalAddress="%Q0.2.22"></variables>
+		<variables name="I" typeName="EBOOL" topologicalAddress="%I0.2.0">
+			<attribute name="TimeStampSource" value="0"></attribute>
+		</variables>
+		<variables name="MEZ_2" typeName="EBOOL" topologicalAddress="%Q0.2.21"></variables>
+		<variables name="M_CAJA" typeName="EBOOL" topologicalAddress="%Q0.2.23">
+			<attribute name="TimeStampSource" value="0"></attribute>
+		</variables>
+		<variables name="TON_V1_Q" typeName="EBOOL"></variables>
+		<variables name="SET_CTU_AZUCAR" typeName="EBOOL"></variables>
+		<variables name="RESET_CTU_AZUCAR" typeName="EBOOL"></variables>
+		<variables name="CTU_AZUCAR_VALUE" typeName="INT">
+			<comment>Unidades de azucar añadidas (max 10)</comment>
+			<variableInit value="0"></variableInit>
+		</variables>
+		<variables name="CTU_AZUCAR_Q" typeName="EBOOL"></variables>
+		<variables name="TON_V4_Q" typeName="EBOOL"></variables>
+		<variables name="TON_MEZ2_Q" typeName="EBOOL"></variables>
+		<variables name="TON_V3_Q" typeName="EBOOL"></variables>
+		<variables name="TON_REPOSO_Q" typeName="EBOOL"></variables>
+		<variables name="TON_RESISTENCIA_Q" typeName="EBOOL"></variables>
+		<variables name="CTU_AZUCAR_ON" typeName="EBOOL" topologicalAddress="%I0.2.7">
+			<attribute name="TimeStampSource" value="0"></attribute>
+		</variables>
+		<variables name="CTU_CAJAS_Q" typeName="EBOOL"></variables>
+		<variables name="CTU_CAJAS_VALUE" typeName="INT">
+			<comment>Unidades de cajas colocadas (max 10)</comment>
+			<variableInit value="0"></variableInit>
+		</variables>
+		<variables name="CTU_PROCESOS_Q" typeName="EBOOL"></variables>
+		<variables name="CTU_PROCESOS_VALUE" typeName="INT">
+			<comment>Unidades de procesos ejecutador (max 2)</comment>
+			<variableInit value="0"></variableInit>
+		</variables>
+		<variables name="TON_DELAY_Q" typeName="EBOOL"></variables>
+		<variables name="FIN_PROCESO" typeName="EBOOL"></variables>
+		<variables name="CTU_CAJAS_RESET" typeName="EBOOL"></variables>
+	</dataBlock>
+</VariablesExchangeFile>
